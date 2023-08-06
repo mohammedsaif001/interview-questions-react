@@ -6,6 +6,8 @@ import ParentComp from './components/ParentComp';
 import APIFetch from './components/APIFetch';
 import PaginationFrontend from './MachineCoding/PaginationFrontend';
 import PaginationBackend from './MachineCoding/PaginationBackend';
+import DangerouslySetHTML from './components/DangerouslySetHTML';
+import ReducerHook from './components/ReducerHook';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       {/* <ParentComp /> */}
       {/* <APIFetch /> */}
       {/* <PaginationFrontend /> */}
-      <PaginationBackend />
+      {/* <PaginationBackend /> */}
+      {/* <DangerouslySetHTML /> */}
+      <ReducerHook />
     </div>
   );
 }
